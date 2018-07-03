@@ -11,4 +11,4 @@ services:
       - '~/.config/Synergy/Synergy.conf:/home/synergy/.config/Synergy/Synergy.conf'
       - '/tmp/.X11-unix:/tmp/.X11-unix'
     ports:
-      - "2480:2480"
+      - "24800:24800"
